@@ -1,0 +1,74 @@
+header {
+    font-size: 21px;
+    background-color: lightblue;
+    padding: 0%;
+} 
+
+ #bq1 {
+    margin: auto;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+
+}
+#bq2 {
+    margin: auto;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+
+}
+footer{
+    background-color: rgb(226, 226, 4);
+    font-size: 18px;
+}
+#agua{
+    margin: auto;
+    display: block;
+    
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+#raio{
+    margin: auto;
+    display: block;
+    
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+
+}
+#div1{
+    display: flex;
+    place-items: center;
+    justify-content: center;
+    padding-top: 20%;
+}
+#div2{
+    display: flex;
+    place-items: center;
+    justify-content: center;
+}
+#div3{
+    display: flex;
+    place-items: center;
+    justify-content: center;
+}
+#div4{
+    display: flex;
+    place-items: center;
+    justify-content: center;
+}
+#pfoot{
+    font-size: large;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
