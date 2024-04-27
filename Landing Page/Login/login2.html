@@ -5,34 +5,30 @@
     <link rel="stylesheet" href="/site/login_page/css/style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Images/Custom-Icon-Design-Mono-General-3-Home.ico" type="image/x-icon">
     <title>Login</title>
+    <style>
+        @import url(/Css/styles.css);
+    </style>
 </head>
-<body>
-    <section>   
-        <form>
-            <h1> Login </h1>
-            <div class="inputbox">
-                <ion icon name="mail-outline"></ion>
-                <input type="email" required> 
-                <label for="">Email</label>
-            </div>    
+<body class="logine">
+        <div id="div1">
+            <h2>Login:</h2>
+            <form>
+                <div class="form-grupo">
+                <label for="email">Email: </label>
+                <input type="email" name="email" id="email" placeholder="Digite seu e-mail" required>
+            </div> <br>
+            <div class="form-grupo">
+                <label for="senha">Senha: </label>
+                <input type="password" name="senha" id="senha" placeholder="Digite a sua senha" required>
+            </div> <br>
+            <button style="color: black;" type="submit">Entrar</button>
+            </form>
             <br>
-            <div class="inputbox">
-                <ion icon name="lock-close-outline"></ion>
-                <input type="password" required>
-                <label for="">Senha</label>
+            <div class="Cadastrar"> <br>
+                <p>Ainda não tem conta? <br><br> <a style="color: rgb(255, 230, 1);" href="">Cadastre-se aqui</a></p>
             </div>
-            <br>
-            <button>Login</button>
-            <div class="esqueci">
-                <label for=""><input type="checkbox">Lembrar de mim</label> <br>
-                <a href="/">Esqueci a senha</a>
-                <br>
-            </div>
-            <div class="registrar">
-                <a href="/">Ainda não tem conta? Cadastre-se</a> <br>
-            </div>    
-        </form>
-    </section>
+        </div>
 </body>
 </html>
