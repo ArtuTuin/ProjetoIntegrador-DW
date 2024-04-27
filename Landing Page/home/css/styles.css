@@ -8,7 +8,7 @@
  }
  body{
     overflow-x: hidden;
-    background-image: url(https://img.freepik.com/vetores-gratis/agua-caindo-fundo-de-chuva_1017-32360.jpg?w=1380&t=st=1714158858~exp=1714159458~hmac=3f5bc340b345793623da1fdb17c1b03c4edf761deb8c3d7170b6924e4581ff5b);
+    background-image:url("/Landing Page/home/Images/bg.jpg") ;
     background-size:cover;
     background-repeat: no-repeat;
 }
