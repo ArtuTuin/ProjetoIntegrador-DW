@@ -15,6 +15,7 @@ header {
     font-size: 18px;
 
 }
+
 #bq2 {
     margin: auto;
     display: block;
@@ -25,10 +26,13 @@ header {
     font-size: 18px;
 
 }
+
 footer{
-    background-color: rgb(226, 226, 4);
+    background-color: rgba(99, 16, 177, 0.85);
     font-size: 18px;
+    text-align: center;
 }
+
 #agua{
     margin: auto;
     display: block;
@@ -37,6 +41,7 @@ footer{
     align-items: center;
     height: 400px;
 }
+
 #raio{
     margin: auto;
     display: block;
@@ -46,6 +51,7 @@ footer{
     height: 400px;
 
 }
+
 #div1{
     background-color: rgba(99, 16, 177, 0.85);
     padding: 40px;
@@ -53,18 +59,22 @@ footer{
     width: 300px;
     padding-right: 55px;
 }
+
 #div1 h2{
     text-align: center;
     margin-bottom: 20px;
 }
+
 .form-grupo{
     margin-bottom: 20px;
 }
+
 .form-grupo label{
     display: block;
     font-weight: bold;
     margin-bottom: 10px;
 }
+
 .form-grupo input{
     width: 100%;
     padding: 12px;
@@ -75,37 +85,45 @@ footer{
     border-radius: 4px;
     padding-right: 0.1px;
 }
+
 .cadastro{
     text-align: center;
     margin-top: 30px;
 }
+
 .cadastro{
     color: rgb(255, 230, 1);
 }
+
 .logine{
     justify-content: center;
     align-items: center;
     height: 100vh;
     display: flex;
 }
+
 #div2{
     display: flex;
     place-items: center;
     justify-content: center;
 }
+
 #div3{
     display: flex;
     place-items: center;
     justify-content: center;
 }
+
 #div4{
     display: flex;
     place-items: center;
     justify-content: center;
 }
+
 #pfoot{
     font-size: large;
 }
+
 body{
     font-family: Arial, Helvetica, sans-serif; 
     color: aliceblue; 
@@ -113,11 +131,13 @@ body{
     padding: 0%;
     margin: 0%;
 }
+
 #titulo{
     padding-left: 3%; 
     margin:0%; 
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
 #divtitu{ 
     color: azure; 
     height: 5vw; 
@@ -128,11 +148,13 @@ body{
     padding: 20px;
     margin-right: 140px;
 }
+
 hr{
     border-style: dashed;
     border-width: 0.1vw;
 
 }
+
 .icon{
     margin: 0;
     padding: 0;
@@ -141,17 +163,20 @@ hr{
     right: 20px;
     z-index: 1000;
 }
+
 .icon img{
     width: 90px;
     height: auto;
     outline: none;
     border: none;
 }
+
 .icon span{
     display: block;
     font-size: 14px;
     margin-left: 25px;
 }
+
 nav ul.top-nav{
     list-style: none;
     padding: 0;
@@ -159,13 +184,16 @@ nav ul.top-nav{
     margin: 0;
     display: flex;
 }
+
 nav ul.top-nav li{
     margin-right: 10px;
 }
+
 nav ul.top-nav li a {
     color: rgb(255, 230, 1);
     padding: 5px 10px;
 }
+
 nav ul.top-nav li a:hover {
     background-color: #1306ce;
 }
