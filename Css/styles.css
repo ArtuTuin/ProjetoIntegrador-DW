@@ -181,6 +181,10 @@
     float: left;
     width: 50%;
 }
+
+#bq1,#bq2 p{
+    margin-top: 10px;
+}
 footer{
     background-color: rgb(1, 128, 145);
     font-size: 18px;
@@ -190,7 +194,7 @@ footer{
 #agua{
     margin: auto;
     display: block;
-    
+    padding-bottom: 20px;
     justify-content: center;
     align-items: center;
     height: 400px;
@@ -198,7 +202,7 @@ footer{
 #raio{
     margin: auto;
     display: block;
-    
+    padding-bottom: 20px;
     justify-content: center;
     align-items: center;
     height: 400px;
@@ -235,6 +239,7 @@ body{
 }
 .quote-container {
     display: flex;
+    margin-bottom: 50px;
 }
 #htmlindex, body {
     height: 100%;
@@ -248,66 +253,4 @@ body{
     background-color: rgba(99, 16, 177, 0.85);
     padding: 0%;
     margin: 0%;
-} 
-#div1{
-    background-color: rgba(99, 16, 177, 0.85);
-    padding: 40px;
-    border-radius: 10px;
-    width: 700px;
-    padding-right: 55px;
-    text-align: center;
-    align-items: center;
-}
-
-#div1 h2{
-    text-align: center;
-    /* margin-bottom: 0px; */
-    margin: 5px 30px 30px 50px;
-    
-}
-
-.form-grupo{
-    margin-bottom: 20px;
-    text-align: center;
-    align-items: center;
-}
-
-.form-grupo label{
-    display:flex;
-    font-weight: bold;
-    margin-bottom: 1px;
-    text-align: center;
-    align-items: center;
-}
-
-.form-grupo input{
-    width: 100%;
-    padding: 12px;
-    font-size: 16px;
-    background-color: rgb(255, 230, 1);
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    padding-right: 0.1px;
-    text-align: center;
-    align-items: center;
-}
-
-.Cadastrar{
-    text-align: center;
-    align-items: center;
-    margin-top: 30px;
-    width: 300px;
-}
-
-.Cadastrar{
-    color: rgb(255, 230, 1);
-    
-}
-
-.logine{
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    display: flex;
 } 
