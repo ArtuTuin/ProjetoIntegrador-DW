@@ -248,9 +248,4 @@ body{
     display: grid;
     grid-template-rows: 1fr auto; /* A última linha é o rodapé */
 }
- header {
-    font-size: 21px;
-    background-color: rgba(99, 16, 177, 0.85);
-    padding: 0%;
-    margin: 0%;
-} 
+

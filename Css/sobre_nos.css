@@ -1,0 +1,33 @@
+.sn_titulo1,.sn_titulo2,.sn_titulo3,.sn_titulo4,.sn_titulo5,.sn_titulo6,.sn_titulo7{
+    height: max-content;
+    border-radius: 10px;
+    margin-top: 3rem;
+    margin-left: 2rem;
+    display: flexbox;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 3rem;
+    justify-content: center;
+    align-items: center;
+    color: rgb(204, 204, 63);
+    text-decoration: underline;
+}
+.sn_texto1,.sn_texto2,.sn_texto3,.sn_texto4,.sn_texto5,.sn_texto6,.sn_texto7,.sn_texto8{
+    width: 90%;
+    margin-top: 2rem;
+    margin-left: 5rem;
+    line-height: 30px;
+    margin-bottom: 2rem;
+}
+.contato{
+    margin-left: 6rem;
+    margin-top: 20px;
+    line-height: 30px;
+}
+.logo{
+    margin: auto;
+    }
+.logo img{
+    width: 150px;
+    height: 100px;
+}
