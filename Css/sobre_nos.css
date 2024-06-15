@@ -24,10 +24,13 @@
     margin-top: 20px;
     line-height: 30px;
 }
-.logo{
-    margin: auto;
-    }
-.logo img{
+.logo_pag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem;
+}
+.logo_pag img{
     width: 150px;
     height: 100px;
 }
