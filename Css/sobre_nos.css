@@ -1,4 +1,4 @@
-.sn_titulo1,.sn_titulo2,.sn_titulo3,.sn_titulo4,.sn_titulo5,.sn_titulo6,.sn_titulo7{
+.sn_titulo{
     height: max-content;
     border-radius: 10px;
     margin-top: 3rem;
@@ -12,7 +12,7 @@
     color: rgb(204, 204, 63);
     text-decoration: underline;
 }
-.sn_texto1,.sn_texto2,.sn_texto3,.sn_texto4,.sn_texto5,.sn_texto6,.sn_texto7,.sn_texto8{
+.sn_texto{
     width: 90%;
     margin-top: 2rem;
     margin-left: 5rem;
